@@ -1,4 +1,12 @@
 # Mailhog
+## **Environment**
+- expose port
+    - 8025
+- data volume
+    - mailhog-volume
+- version
+    - 1.27.4
+
 ## **Build**
 ```shell
 docker-compose up -d
