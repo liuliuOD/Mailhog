@@ -1,0 +1,2 @@
+# Mailhog
+Docker dev mailbag
