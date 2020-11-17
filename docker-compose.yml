@@ -1,4 +1,4 @@
-version: "3"
+version: "3.8"
 
 services:
   mailhog:
@@ -9,6 +9,7 @@ services:
     ports:
       - 1025:1025
       - 8025:8025
+    restart: always
     environment:
       - MH_STORAGE=maildir # memory / mongodb / maildir
       - MH_MAILDIR_PATH=/mail-volume
